@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 
 // function App() {
@@ -25,11 +25,20 @@ import './App.css';
 //   );
 // }
 
-let content=(<section>fghj</section>);
+import a from "./class/a.js";
+import signlog from "./com/signlog.js";
 
 let App = ()=>{
 
-return(<section id="appcase">{content}</section>);
+    let end = a.uniqid();
+
+let content=(<section id={end+"appbox"}>
+    
+    <signlog.Signlogtemp/>
+
+</section>);
+
+return(<section id={end+"appcase"}>{content}</section>);
 
 };
 
