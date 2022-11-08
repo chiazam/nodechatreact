@@ -25,9 +25,11 @@ import './App.css';
 //   );
 // }
 
+let content=(<section>fghj</section>);
+
 let App = ()=>{
 
-return(<section></section>);
+return(<section id="appcase">{content}</section>);
 
 };
 
