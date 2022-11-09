@@ -26,7 +26,7 @@ import './App.css';
 // }
 
 import a from "./class/a.js";
-import signlog from "./com/signlog.js";
+// import signlog from "./comp/signlog.js";
 
 let App = ()=>{
 
@@ -34,7 +34,7 @@ let App = ()=>{
 
 let content=(<section id={end+"appbox"}>
     
-    <signlog.Signlogtemp/>
+    {/* <signlog.Signlogtemp/> */} dfhhf
 
 </section>);
 

@@ -10,7 +10,7 @@ export let Signlogtemp =(props)=>{
 
     <section class="flex-1">
         
-        <img src={signlogsvg}/>
+        <img alt="SignUp or Login" src={signlogsvg}/>
     
     </section>
 
