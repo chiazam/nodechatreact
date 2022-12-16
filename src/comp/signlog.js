@@ -14,7 +14,7 @@ export let Signlogtemp =(props)=>{
     
     </section>
 
-    <section id={`${end}_signlog`}> fghjk </section>
+    <section id={`${end}_signlog`}>  </section>
 
  </section>);
 
